@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+/* .navbar{
+    /* background-image: url(https://t4.ftcdn.net/jpg/06/46/50/41/360_F_646504116_x0UXONqXyAexI9zlef0k8auon3REXqb1.jpg); */
+    /* height: 100px;
+    background-color: blue;
+ } */
+
+ 
+ul li{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: polo;
+   
+}
+li a:hover{
+color: rgb(87, 42, 6) !important;
+/* font-family: Gabriola; */
+}
+
+
+/* home */
+
+
+.main{
+
+    background-image: url(https://images.pexels.com/photos/1483053/pexels-photo-1483053.jpeg);
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.bg{
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(15, 8, 8, 0.315);
+}
+.welcome {
+    padding-top: 20%;
+    padding-left: 55%;
+
+}
+.welcome p{
+    color: rgb(233, 227, 228);
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 80;
+    font-family:polo ;
+    text-shadow:0 0 10px rgb(12, 1, 1);
+}
+.welcome h1{
+    color: rgb(243, 239, 240);
+    font-size: 150px;
+    font-weight: 300;
+    line-height: 60px;
+    font-family:Gabriola ;
+    text-shadow:0 0 10px black;
+}
+.welcome h2{
+    color: rgb(243, 239, 240);
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 20px;
+    font-family:Gabriola ;
+    text-shadow:0 0 10px black;
+}
+
+@media (max-width:600px){
+    .welcome p{
+        padding-top: 20%;
+        
+    }
+    .welcome h1{
+        font-size: 50px;
+    }
+    
+}
+
+#button{
+    color: antiquewhite;
+    background-color: black;
+}
+button a{
+    text-decoration: none;
+    color: rgb(20, 160, 179);
+
+}
+/* button:hover{
+    color: black;
+    background-color: rgb(207, 107, 14);
+} */
+
+/* history */
+
+
+
+/* #history{
+background-color: rgb(243, 230, 230);
+} */
+#img1{
+    width: 100px;
+    height: 200px;
+}
+
+
+#history h1{
+    color: rgb(30, 182, 202);
+    font-family: Gabriola;
+    /* text-shadow:0 0 10px rgb(74, 219, 245); */
+    font-size: 60px;
+    font-weight: 100;
+    margin-left: 70px;
+    
+}
+#history h3{
+    color: rgb(102, 73, 9);
+    font-family: Gabriola;
+    /* text-shadow:0 0 10px rgb(9, 46, 46); */
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#history p{
+    text-align: justify;
+    color: rgb(39, 35, 28);
+    font-family: polo;
+    font-size: 30px;
+    font-weight: 100;
+}
+.btn {
+    text-decoration: none;
+    background-color: rgb(114, 77, 29);
+    color: black;
+    
+}
+#vi{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+.btn:hover{
+    background-color: rgb(14, 130, 134);
+    color: white;
+
+}
+
+/* packages */
+.pack{
+    background:url(https://gskworldtravels.com/wp-content/uploads/2023/07/maldives.jpg);
+}
+.row h1{
+    color: rgb(11, 20, 20);
+    font-family: Gabriola;
+    font-size: 70px;
+    font-weight: 200;
+
+}
+
+.card img{
+    transition: 0.5s;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.btn{
+    font-family: 'Nutio', sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    background-color: rgb(90, 44, 6);
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: aqua;
+    background-color: rgb(10, 1, 1);
+}
+.card{
+    background-color: black;
+}
+.card-body h5{
+    color: blanchedalmond;
+}
+.card-body p{
+    color: antiquewhite;
+}
+
+
+
+
+
+/* service */
+/* #services{
+  background-color: rgb(14, 12, 12);
+
+} */
+.sv h1{
+    color: rgb(173, 98, 12);
+    font-size: 70px;
+    font-weight: 300;
+    font-family: Gabriola;
+}
+
+/* #row1{
+    background:url(https://gskworldtravels.com/wp-content/uploads/2023/07/maldives.jpg);
+} */
+
+.service-item{
+    box-shadow: 0 0 45px rgba(241, 235, 235, 0.08);
+    /* transition: 0.5s; */
+    background-color: rgb(21, 219, 209);
+
+}
+.service-item:hover{
+    background: rgb(105, 107, 107);
+    
+    
+    
+}
+.service-item h5{
+    transition: 0.5s;
+    color: rgb(58, 18, 95);
+    font-size: 20px;
+    
+    font-family: polo;
+}
+.service-item p{
+color:rgb(3, 29, 3);
+text-align: justify;
+
+}
+
+
+/* explore */
+.carousel-item img{
+    height: 400px;
+    width: 300px;
+}
+.explore h2{
+    font-family: polo;
+    font-size: 40px;
+    color: rgb(10, 10, 49);
+    
+
+}
+.explore h1{
+    font-family: Gabriola;
+    font-size: 60px;
+    font-weight:800;
+    color: rgb(80, 36, 7);
+    /* margin-left: 100px; */
+
+}
+.explore h1 span{
+    color: rgb(131, 57, 8);
+    font-size:70px ;
+}
+
+/* booking */
+/* .booking{
+    background: linear-gradient(rgba(15,23,43,0.7),rgba(15,23,43,0.7)),url(https://t3.ftcdn.net/jpg/04/01/96/92/360_F_401969266_1GvyUauUgAurxh5GVIA4g4hUPvy1wD4o.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#book {
+    /* background-color: black; */
+    background: linear-gradient(rgba(15,23,43,0.7),rgba(15,23,43,0.7)),url(https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-text h1{
+    font-family: Gabriola;
+    font-size: 60px;
+    font-weight:800;
+    color: rgb(80, 36, 7);
+}
+
+
+
+/* footer */
+
+
+
+.footer{
+    padding: 5px;
+    margin-top: 50px;
+    height: 100%;
+    background:url(https://image.slidesdocs.com/responsive-images/background/color-blue-nature-travel-agency-fashion-travel-powerpoint-background_2753391815__960_540.jpg);
+     
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+.footer h1{
+    font-family: polo;
+    font-size: 50px;
+    color: rgb(54, 6, 6);
+    
+
+}
+.icon i{
+    /* font-size: 30px;  for icon size */
+    color: black;
+    /* margin-left: 50px; */
+    
+
+}
+
+.icon:hover i{
+    color: rgb(173, 103, 11);
+    animation: shake 0.80s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);    
+    }
+}
+
+/* .up-arrow a{
+    margin-left: 50px;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
